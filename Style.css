@@ -1,44 +1,59 @@
 /* styles.css */
 
-nav{
-  display:flex;
+body {
+  background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
 }
 
-nav .navinfo{
-  width: 40%;
-  float: left;
-  height: 50%;
+#top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-nav .navinfo a{
-  padding-right: 10%;
-  color:white;
-  padding-top: 10%;
-  padding-left: 3%;
-  font-size: 20px;
-  margin-top: 20%;
-  font-size: 30px;
-}
-
-nav .logo img {
-  display:flex;
-  align-items: center;
-}
-
-nav .account img{
-  align-items: right;
-}
-
-nav .cart img{
-  align-items: right;
-}
-
-  h2 {
+.navinfo{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 30%;
+  justify-content: flex-start;
   color: white;
 }
 
-body {
-  background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
+.navinfo a{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo{
+  display: flex;
+  flex-basis: 40%;
+  justify-content: center;
+}
+
+.logo img{
+  width: 200px;
+  height: 50px;
+}
+
+.icons{
+  display: flex;
+  flex-basis: 30%;
+  justify-content: flex-end;
+}
+
+.icons-img{
+  width: 40px;
+  height: 40px;
+}
+
+.middle{
+  display: flex;
+  flex-basis: 30%;
+  justify-content: center;
+}
+
+.maincontent-img{
+  width: 20px;
+  height: 20px;
 }
 
 h1 {
@@ -46,16 +61,14 @@ h1 {
   text-align: center;
 }
 
-footer{
+footer {
   width: 100%;
+  background-color: #333;
+  padding: 20px;
+  box-sizing: border-box; 
 }
 
-footer .footerpic{
-  background-image: url(Photos/PG1\ -\ Lights\ blur\(Rotated\).jpg);
-  background-size: cover;
+footer .footerpic {
   display: flex;
-  padding-top: 7%;
-  padding-bottom: 7%;
-  justify-content: center;
-  justify-content: space-around;
+  justify-content: space-around;
 }
