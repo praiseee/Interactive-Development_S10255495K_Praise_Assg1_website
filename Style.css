@@ -1,20 +1,61 @@
 /* styles.css */
 
-nav {
-  text-align: center;
+nav{
+  display:flex;
 }
 
-nav img {
-  display: block;
-  margin: 0 auto;
+nav .navinfo{
+  width: 40%;
+  float: left;
+  height: 50%;
+}
+
+nav .navinfo a{
+  padding-right: 10%;
+  color:white;
+  padding-top: 10%;
+  padding-left: 3%;
+  font-size: 20px;
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+nav .logo img {
+  display:flex;
+  align-items: center;
+}
+
+nav .account img{
+  align-items: right;
+}
+
+nav .cart img{
+  align-items: right;
+}
 
   h2 {
   color: white;
 }
-}
-
 
 body {
   background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
+}
 
+h1 {
+  color: white;
+  text-align: center;
+}
+
+footer{
+  width: 100%;
+}
+
+footer .footerpic{
+  background-image: url(Photos/PG1\ -\ Lights\ blur\(Rotated\).jpg);
+  background-size: cover;
+  display: flex;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  justify-content: center;
+  justify-content: space-around;
 }
