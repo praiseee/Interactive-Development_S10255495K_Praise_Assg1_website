@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-  padding: 1%;
+  padding: 5px;
   background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
 }
 
@@ -25,7 +25,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 8px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 /* logo */
@@ -63,15 +63,15 @@ body {
 /* maincontent */
 .maincontent {
   display: flex;
-  justify-content:center
+  justify-content: center;
 }
 
 .maincontent img {
   width: 50%;
-  max-height: 380px;
+  max-height: 480px;
 }
 
-/* ticket */
+/* seccontent: ticket */
 .seccontent {
   display: flex;
   justify-content: center;
@@ -79,22 +79,32 @@ body {
 
 .seccontent img {
   width: 95%;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
 /* ... */
 h1 {
   color: white;
   text-align: center;
+  font-size: 45px;
 }
 
-footer {
-  width: 100%;
-  background-color: #333;
-  padding: 20px;
-  box-sizing: border-box; 
-}
-
-footer .footerpic {
+/* bottom */
+#bottom{
   display: flex;
-  justify-content: space-around;
+  flex-basis: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.lastcontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastcontent img{
+  width: 28%;
+  max-height: 380px;
 }
