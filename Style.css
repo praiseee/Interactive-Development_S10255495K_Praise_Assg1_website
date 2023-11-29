@@ -201,7 +201,7 @@ h1 {
 
 .TourLogo img{
   padding-top: 20px;
-  padding-bottom: 8px;
+  padding-bottom: 40px;
   width: 550px;
   height: 80px;
 }
@@ -237,7 +237,7 @@ h1 {
 
 /* Tour - Middle */
 #tourMiddle {
-  background-image: url("Photos/PG1 - Lights blur.png");
+  background-image: url("Photos/tourblur.png");
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -246,22 +246,223 @@ h1 {
 .middleText a{
   font-size: 50px;
   color: white;
-}
-
-.middleText a{
   padding-top: 50px;
   padding-right: 10px;
   padding-left: 80px;
-  padding-bottom: 8px;
-}
+  padding-bottom: 50px;
+} 
 
 .middleTicket {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.mmiddleTicket img {
-  width: 95%;
-  padding-top: 25px;
-  padding-bottom: 10px;
+.middleTicket img {
+  max-height: 480px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 40px;
 }
+
+
+/* Tour details */
+.tourDetails1 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails1 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails2 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails2 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails3 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails3 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails4 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails4 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails5 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails5 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails6 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails6 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails7 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails7 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails8 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails8 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails9 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails9 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails10 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails10 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails11 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails11 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails12 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails12 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tourDetails13 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tourDetails13 a{
+  font-size: 40px;
+  color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* (MUSIC) styles.css*/
+
+
