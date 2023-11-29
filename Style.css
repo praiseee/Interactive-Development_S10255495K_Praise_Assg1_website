@@ -514,7 +514,7 @@ h1 {
 .MusicLogo img{
   padding-top: 20px;
   padding-bottom: 40px;
-  padding-left: 350px;
+  padding-left: 370px;
   width: 550px;
   height: 80px;
 }
@@ -531,4 +531,44 @@ h1 {
   padding-bottom: 8px;
   flex-basis: 50%;
   justify-content:left;
+}
+
+#MusicListen {
+  background-image: url("Photos/MusicProfile.png");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.middlelogo {
+  display: flex;
+  justify-content:space-between;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  padding-right: 150px;
+  padding-left: 150px;
+  flex-basis: 100%;
+}
+
+.middlelogo img{
+  max-height: 100px;
+}
+
+#MusicVideo {
+  background-image: url("Photos/tourblur.png");
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.music {
+  display: flex;
+  justify-content:center;
+  padding-top: 12%;
+  padding-bottom: 8%;
+  padding-right: 150px;
+  padding-left: 150px;
+  flex-basis: 100%;
 }
