@@ -1,4 +1,4 @@
-/* styles.css */
+/* (HOME) styles.css*/
 
 body {
   padding: 5px;
@@ -102,7 +102,7 @@ h1 {
   flex-basis: 100%;
   justify-content:center;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   color: white;
 }
 
@@ -118,7 +118,7 @@ h1 {
 /* footer */
 #bottom{
   display: flex;
-  flex-basis: 30%;
+  flex-basis: 100%;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -142,4 +142,126 @@ h1 {
 .greenday img{
   width: 100%;
   max-height: 450px;
+}
+
+
+
+
+
+/* (TOUR) styles.css */
+#tourtop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* Tour nav */
+.tournavinfo{
+  display: flex;
+  flex-direction: row;
+  flex-basis:20%;
+  justify-content:space-between;
+  color: white;
+}
+
+.tournavinfo a{
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  font-size: 22px;
+}
+
+/* Tour icons */
+.touricons{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 80%;
+  justify-content:right;
+}
+
+.touricons img{
+  width: 25px;
+  height: 25px;
+}
+
+#Heading {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* Tour Logo */
+.TourLogo{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 30%;
+  justify-content:left;
+}
+
+.TourLogo img{
+  padding-top: 20px;
+  padding-bottom: 8px;
+  width: 550px;
+  height: 80px;
+}
+
+.detour a{
+  font-size: 40px;
+  color: white;
+}
+
+.detour{
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  flex-basis: 30%;
+  justify-content:left;
+}
+
+/* Tour search bar */
+.searchbar a{
+  font-size: 20px;
+  color: white;
+}
+
+.searchbar{
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 80px;
+  padding-bottom: 8px;
+  flex-basis:40%;
+  justify-content: end;
+}
+
+/* Tour - Middle */
+#tourMiddle {
+  background-image: url("Photos/PG1 - Lights blur.png");
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.middleText a{
+  font-size: 50px;
+  color: white;
+}
+
+.middleText a{
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 80px;
+  padding-bottom: 8px;
+}
+
+.middleTicket {
+  display: flex;
+  justify-content: center;
+}
+
+.mmiddleTicket img {
+  width: 95%;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
