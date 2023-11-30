@@ -292,9 +292,9 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails1 a:hover{
-  color: rgb(186, 14, 114);
-}
+  .tourDetails1 a:hover{
+    color: rgb(186, 14, 114);
+  }
 
 .tourDetails2 {
   display: flex;
@@ -750,6 +750,11 @@ h1 {
   max-height: 380px;
 }
 
+.Merch1 :hover{
+  width: 26%;
+  max-height: 380px;
+}
+
 .Merch1text {
   display: flex;
   flex-direction: row;
@@ -782,6 +787,11 @@ h1 {
   padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.Merch2 :hover{
+  width: 26%;
+  max-height: 380px;
 }
 
 .Merch2 img{
@@ -821,6 +831,11 @@ h1 {
   padding-right: 150px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.Merch3 :hover{
+  width: 36%;
+  max-height: 410px;
 }
 
 .Merch3 img{
