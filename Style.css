@@ -5,6 +5,8 @@ body {
 }
 
 #top {
+  background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
+  position:fixed;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -68,7 +70,12 @@ body {
 
 .maincontent img {
   width: 50%;
-  max-height: 480px;
+  height: 480px;
+}
+
+.maincontent video{
+  width:50%;
+  height: 480px;
 }
 
 /* seccontent: ticket */
@@ -670,7 +677,7 @@ h1 {
   width: 100%;
 }
 
-/* Merch1 */
+/* Merch1Column*/
 .Merch1 {
   display: flex;
   justify-content:space-between;
@@ -687,7 +694,102 @@ h1 {
 
 .Merch1text {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-/* Merch1 */
+.Merch1text {
+  font-size: 15px;
+}
+
+.Merch1price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 140px;
+}
+
+.Merch1price {
+  font-size: 15px;
+}
+
+/* Merch2Column*/
+.Merch2 {
+  display: flex;
+  justify-content:space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Merch2 img{
+  width: 25%;
+  max-height: 380px;
+}
+
+.Merch2text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Merch2text {
+  font-size: 15px;
+}
+
+.Merch2price {
+  display: flex;
+  flex-direction: row;
+   justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 140px;
+}
+
+.Merch2price {
+  font-size: 15px;
+}
+
+/* Merch3Column*/
+.Merch3 {
+  display: flex;
+  justify-content:space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Merch3 img{
+  width: 35%;
+  max-height: 410px;
+}
+
+.Merch3text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.Merch3text {
+  font-size: 15px;
+}
+
+.Merch3price {
+  display: flex;
+  flex-direction: row;
+   justify-content: space-between;
+  padding-left: 265px;
+  padding-right: 230px;
+}
+
+.Merch3price {
+  font-size: 15px;
+}
