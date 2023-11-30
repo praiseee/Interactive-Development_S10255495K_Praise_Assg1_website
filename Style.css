@@ -112,6 +112,12 @@ h1 {
   color: white;
 }
 
+.getTicket a:hover{
+  border: 1px solid rgb(186, 14, 114);
+  background-color: rgb(186, 14, 114);
+  font-size: 23px;
+}
+
 .getTicket a{
   margin: auto;  
   padding-right: 45px;
@@ -286,6 +292,10 @@ h1 {
   padding-bottom: 15px;
 }
 
+.tourDetails1 a:hover{
+  color: rgb(186, 14, 114);
+}
+
 .tourDetails2 {
   display: flex;
   flex-direction: row;
@@ -299,6 +309,10 @@ h1 {
   padding-left: 10%;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.tourDetails2 a:hover{
+  color: rgb(186, 14, 114);
 }
 
 .tourDetails3 {
@@ -316,6 +330,10 @@ h1 {
   padding-bottom: 15px;
 }
 
+.tourDetails3 a:hover{
+  color: rgb(186, 14, 114);
+}
+
 .tourDetails4 {
   display: flex;
   flex-direction: row;
@@ -329,6 +347,10 @@ h1 {
   padding-left: 10%;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.tourDetails4 a:hover{
+  color: rgb(186, 14, 114);
 }
 
 .tourDetails5 {
@@ -346,6 +368,10 @@ h1 {
   padding-bottom: 15px;
 }
 
+.tourDetails5 a:hover{
+  color: rgb(186, 14, 114);
+}
+
 .tourDetails6 {
   display: flex;
   flex-direction: row;
@@ -359,6 +385,10 @@ h1 {
   padding-left: 10%;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.tourDetails6 a:hover{
+  color: rgb(186, 14, 114);
 }
 
 .tourDetails7 {
@@ -376,6 +406,10 @@ h1 {
   padding-bottom: 15px;
 }
 
+.tourDetails7 a:hover{
+  color: rgb(186, 14, 114);
+}
+
 .tourDetails8 {
   display: flex;
   flex-direction: row;
@@ -389,6 +423,10 @@ h1 {
   padding-left: 10%;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.tourDetails8 a:hover{
+  color: rgb(186, 14, 114);
 }
 
 .tourDetails9 {
@@ -406,6 +444,10 @@ h1 {
   padding-bottom: 15px;
 }
 
+.tourDetails9 a:hover{
+  color: rgb(186, 14, 114);
+}
+
 .tourDetails10 {
   display: flex;
   flex-direction: row;
@@ -419,6 +461,10 @@ h1 {
   padding-left: 10%;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.tourDetails10 a:hover{
+  color: rgb(186, 14, 114);
 }
 
 .tourDetails11 {
@@ -436,6 +482,10 @@ h1 {
   padding-bottom: 15px;
 }
 
+.tourDetails11 a:hover{
+  color: rgb(186, 14, 114);
+}
+
 .tourDetails12 {
   display: flex;
   flex-direction: row;
@@ -451,6 +501,10 @@ h1 {
   padding-bottom: 15px;
 }
 
+.tourDetails12 a:hover{
+  color: rgb(186, 14, 114);
+}
+
 .tourDetails13 {
   display: flex;
   flex-direction: row;
@@ -464,6 +518,10 @@ h1 {
   padding-left: 10%;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.tourDetails13 a:hover{
+  color: rgb(186, 14, 114);
 }
 
 /* (MUSIC) styles.css*/
@@ -549,14 +607,14 @@ h1 {
   width: 100%;
 }
 
-/* Tour Platforms */
+/* Tour Music Platforms */
 .middlelogo {
   display: flex;
   justify-content:space-between;
   padding-top: 12%;
   padding-bottom: 12%;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding-right: 170px;
+  padding-left: 110px;
   flex-basis: 100%;
 }
 
