@@ -1,9 +1,11 @@
+
 /* (HOME) styles.css.....................................................*/
 
 body {
   background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
 }
 
+/* flexbox for navigation information */
 #top {
   background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
   position: fixed;
@@ -102,14 +104,14 @@ body {
   padding-bottom: 10px;
 }
 
-/* Text */
+/* text */
 h1 {
   color: white;
   text-align: center;
   font-size: 45px;
 }
 
-/* Buy Ticket Button */
+/* buy ticket Button */
 #ticketButton {
   width: 100%;
 }
@@ -171,13 +173,15 @@ h1 {
 
 
 /* (TOUR) styles.css.....................................................*/
+
+/* flexbox for navigation information */
 #tourtop {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-/* Tour nav */
+/* tour nav */
 .tournavinfo {
   display: flex;
   flex-direction: row;
@@ -206,7 +210,7 @@ h1 {
   color: rgb(186, 14, 114);
 }
 
-/* Tour icons */
+/* tour icons */
 .touricons {
   display: flex;
   flex-direction: row;
@@ -219,13 +223,14 @@ h1 {
   height: 25px;
 }
 
+/* flexbox for logo, text and search bar */
 #Heading {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-/* Tour Logo */
+/* tour logo */
 .TourLogo {
   display: flex;
   flex-direction: row;
@@ -240,6 +245,7 @@ h1 {
   height: 80px;
 }
 
+/* text-detour */
 .detour a {
   font-size: 40px;
   color: white;
@@ -254,7 +260,7 @@ h1 {
   justify-content: left;
 }
 
-/* Tour search bar */
+/* tour search bar */
 .searchbar a {
   font-size: 20px;
   color: white;
@@ -269,7 +275,7 @@ h1 {
   justify-content: end;
 }
 
-/* Tour - Middle */
+/* tour - middle */
 #tourMiddle {
   background-image: url("Photos/tourblur.png");
   display: flex;
@@ -301,7 +307,7 @@ h1 {
 }
 
 
-/* Tour details */
+/* tour details */
 .tourDetails1 {
   display: flex;
   flex-direction: row;
@@ -317,6 +323,7 @@ h1 {
   padding-bottom: 15px;
 }
 
+/* hover animation for all ticket purchase details */
 .tourDetails1 a:hover {
   color: rgb(186, 14, 114);
 }
@@ -550,6 +557,8 @@ h1 {
 }
 
 /* (MUSIC) styles.css.....................................................*/
+
+/* flexbox for navigation information */
 #musictop {
   display: flex;
   flex-direction: row;
@@ -598,13 +607,14 @@ h1 {
   height: 25px;
 }
 
+/* flexbox for logo/search bar and text-demusic */
 #MusicHeading {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-/* Music Logo */
+/* music Logo */
 .MusicLogo {
   display: flex;
   flex-direction: row;
@@ -620,7 +630,7 @@ h1 {
   height: 80px;
 }
 
-/* Music Text */
+/* music text */
 .demusic a {
   font-size: 40px;
   color: white;
@@ -635,7 +645,7 @@ h1 {
   justify-content: left;
 }
 
-/* Music Youtube */
+/* music youtube */
 #MusicListen {
   background-image: url("Photos/MusicProfile.png");
   display: flex;
@@ -644,7 +654,7 @@ h1 {
   width: 100%;
 }
 
-/* Music Platforms */
+/* flexbox for music platforms */
 .middlelogo {
   display: flex;
   justify-content: space-between;
@@ -659,6 +669,7 @@ h1 {
   max-height: 100px;
 }
 
+/* flexbox for youtube videos */
 #MusicVideo {
   background-image: url("Photos/tourblur.png");
   display: flex;
@@ -678,6 +689,8 @@ h1 {
 }
 
 /* (STORE) styles.css.....................................................*/
+
+/* flexbox for navigation information */
 #storetop {
   display: flex;
   flex-direction: row;
@@ -713,7 +726,7 @@ h1 {
   color: rgb(186, 14, 114);
 }
 
-/* Store icons */
+/* store icons */
 .storeicons {
   display: flex;
   flex-direction: row;
@@ -726,6 +739,7 @@ h1 {
   height: 25px;
 }
 
+/* flexbox for logo/search bar and text-demusic */
 #StoreHeading {
   display: flex;
   flex-direction: row;
@@ -747,6 +761,7 @@ h1 {
   height: 80px;
 }
 
+/* text-destore */
 .destore a {
   font-size: 40px;
   color: white;
@@ -761,7 +776,7 @@ h1 {
   justify-content: left;
 }
 
-/* Store search bar */
+/* store search bar */
 .storeSearchbar a {
   font-size: 20px;
   color: white;
@@ -776,7 +791,7 @@ h1 {
   justify-content: end;
 }
 
-/* Store Merch */
+/* store Merch */
 #StoreBottom {
   background-image: url("Photos/storewhite.png");
   display: flex;
