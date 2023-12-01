@@ -1,4 +1,4 @@
-/* (HOME) styles.css*/
+/* (HOME) styles.css.....................................................*/
 
 body {
   background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
@@ -6,22 +6,22 @@ body {
 
 #top {
   background-image: url("Photos/PG1 - Dark Grey Sand Background.png");
-  position:fixed;
+  position: fixed;
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
 /* nav */
-.navinfo{
+.navinfo {
   display: flex;
   flex-direction: row;
   flex-basis: 20%;
-  justify-content:space-between;
+  justify-content: space-between;
   color: white;
 }
 
-.navinfo a{
+.navinfo a {
   padding-top: 8px;
   padding-left: 10px;
   padding-right: 10px;
@@ -29,32 +29,44 @@ body {
   font-size: 22px;
 }
 
+/* remove decorated link and colours */
+.navinfo a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* hover over navigation */
+.navinfo a:hover {
+  color: rgb(186, 14, 114);
+}
+
 /* logo */
-.logo{
+.logo {
   display: flex;
   flex-basis: 60%;
   justify-content: center;
 }
 
-.logo img{
+.logo img {
   width: 200px;
   height: 50px;
 }
 
 /* icons */
-.icons{
+.icons {
   display: flex;
   flex-direction: row;
   flex-basis: 20%;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 
-.icons-img{
+.icons-img {
   width: 25px;
   height: 25px;
 }
 
-#middle{
+#middle {
   display: flex;
   flex-basis: 30%;
   justify-content: center;
@@ -73,8 +85,8 @@ body {
   height: 480px;
 }
 
-.maincontent video{
-  width:50%;
+.maincontent video {
+  width: 50%;
   height: 480px;
 }
 
@@ -102,24 +114,25 @@ h1 {
   width: 100%;
 }
 
-.getTicket{
+.getTicket {
   display: flex;
   flex-direction: row;
   flex-basis: 100%;
-  justify-content:center;
+  justify-content: center;
   text-align: center;
   font-size: 15px;
   color: white;
 }
 
-.getTicket a:hover{
+/* hover over animation */
+.getTicket a:hover {
   border: 1px solid rgb(186, 14, 114);
   background-color: rgb(186, 14, 114);
   font-size: 23px;
 }
 
-.getTicket a{
-  margin: auto;  
+.getTicket a {
+  margin: auto;
   padding-right: 45px;
   padding-left: 45px;
   padding-top: 10px;
@@ -128,7 +141,7 @@ h1 {
 }
 
 /* footer */
-#bottom{
+#bottom {
   display: flex;
   flex-basis: 100%;
   justify-content: center;
@@ -138,26 +151,26 @@ h1 {
 
 .lastcontent {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.lastcontent img{
+.lastcontent img {
   width: 25%;
   max-height: 380px;
 }
 
 .greenday {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
-.greenday img{
+.greenday img {
   width: 100%;
   max-height: 450px;
 }
 
 
-/* (TOUR) styles.css */
+/* (TOUR) styles.css.....................................................*/
 #tourtop {
   display: flex;
   flex-direction: row;
@@ -165,15 +178,15 @@ h1 {
 }
 
 /* Tour nav */
-.tournavinfo{
+.tournavinfo {
   display: flex;
   flex-direction: row;
-  flex-basis:20%;
-  justify-content:space-between;
+  flex-basis: 20%;
+  justify-content: space-between;
   color: white;
 }
 
-.tournavinfo a{
+.tournavinfo a {
   padding-top: 8px;
   padding-left: 10px;
   padding-right: 10px;
@@ -181,15 +194,27 @@ h1 {
   font-size: 22px;
 }
 
+/* remove decorated link and colours */
+.tournavinfo a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* hover over navigation */
+.tournavinfo a:hover {
+  color: rgb(186, 14, 114);
+}
+
 /* Tour icons */
-.touricons{
+.touricons {
   display: flex;
   flex-direction: row;
   flex-basis: 80%;
-  justify-content:right;
+  justify-content: right;
 }
 
-.touricons img{
+.touricons img {
   width: 25px;
   height: 25px;
 }
@@ -201,46 +226,46 @@ h1 {
 }
 
 /* Tour Logo */
-.TourLogo{
+.TourLogo {
   display: flex;
   flex-direction: row;
   flex-basis: 30%;
-  justify-content:left;
+  justify-content: left;
 }
 
-.TourLogo img{
+.TourLogo img {
   padding-top: 20px;
   padding-bottom: 40px;
   width: 550px;
   height: 80px;
 }
 
-.detour a{
+.detour a {
   font-size: 40px;
   color: white;
 }
 
-.detour{
+.detour {
   padding-top: 20px;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 8px;
   flex-basis: 30%;
-  justify-content:left;
+  justify-content: left;
 }
 
 /* Tour search bar */
-.searchbar a{
+.searchbar a {
   font-size: 20px;
   color: white;
 }
 
-.searchbar{
+.searchbar {
   padding-top: 50px;
   padding-right: 10px;
   padding-left: 80px;
   padding-bottom: 8px;
-  flex-basis:40%;
+  flex-basis: 40%;
   justify-content: end;
 }
 
@@ -252,14 +277,14 @@ h1 {
   width: 100%;
 }
 
-.middleText a{
+.middleText a {
   font-size: 50px;
   color: white;
   padding-top: 50px;
   padding-right: 10px;
   padding-left: 80px;
   padding-bottom: 50px;
-} 
+}
 
 .middleTicket {
   display: flex;
@@ -280,10 +305,10 @@ h1 {
 .tourDetails1 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails1 a{
+.tourDetails1 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -292,17 +317,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-  .tourDetails1 a:hover{
-    color: rgb(186, 14, 114);
-  }
+.tourDetails1 a:hover {
+  color: rgb(186, 14, 114);
+}
 
 .tourDetails2 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails2 a{
+.tourDetails2 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -311,17 +336,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails2 a:hover{
+.tourDetails2 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails3 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails3 a{
+.tourDetails3 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -330,17 +355,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails3 a:hover{
+.tourDetails3 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails4 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails4 a{
+.tourDetails4 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -349,17 +374,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails4 a:hover{
+.tourDetails4 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails5 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails5 a{
+.tourDetails5 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -368,17 +393,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails5 a:hover{
+.tourDetails5 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails6 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails6 a{
+.tourDetails6 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -387,17 +412,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails6 a:hover{
+.tourDetails6 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails7 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails7 a{
+.tourDetails7 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -406,17 +431,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails7 a:hover{
+.tourDetails7 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails8 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails8 a{
+.tourDetails8 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -425,17 +450,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails8 a:hover{
+.tourDetails8 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails9 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails9 a{
+.tourDetails9 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -444,17 +469,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails9 a:hover{
+.tourDetails9 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails10 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails10 a{
+.tourDetails10 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -463,17 +488,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails10 a:hover{
+.tourDetails10 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails11 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails11 a{
+.tourDetails11 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -482,17 +507,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails11 a:hover{
+.tourDetails11 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails12 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails12 a{
+.tourDetails12 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -501,17 +526,17 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails12 a:hover{
+.tourDetails12 a:hover {
   color: rgb(186, 14, 114);
 }
 
 .tourDetails13 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.tourDetails13 a{
+.tourDetails13 a {
   font-size: 40px;
   color: white;
   padding-right: 10%;
@@ -520,27 +545,27 @@ h1 {
   padding-bottom: 15px;
 }
 
-.tourDetails13 a:hover{
+.tourDetails13 a:hover {
   color: rgb(186, 14, 114);
 }
 
-/* (MUSIC) styles.css*/
+/* (MUSIC) styles.css.....................................................*/
 #musictop {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-/* Tour nav */
-.musicnavinfo{
+/* Music nav */
+.musicnavinfo {
   display: flex;
   flex-direction: row;
-  flex-basis:20%;
-  justify-content:space-between;
+  flex-basis: 20%;
+  justify-content: space-between;
   color: white;
 }
 
-.musicnavinfo a{
+.musicnavinfo a {
   padding-top: 8px;
   padding-left: 10px;
   padding-right: 10px;
@@ -548,15 +573,27 @@ h1 {
   font-size: 22px;
 }
 
-/* Tour icons */
-.musicicons{
+/* remove decorated link and colours */
+.musicnavinfo a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* hover over navigation */
+.musicnavinfo a:hover {
+  color: rgb(186, 14, 114);
+}
+
+/* Music icons */
+.musicicons {
   display: flex;
   flex-direction: row;
   flex-basis: 80%;
-  justify-content:right;
+  justify-content: right;
 }
 
-.musicicons img{
+.musicicons img {
   width: 25px;
   height: 25px;
 }
@@ -567,15 +604,15 @@ h1 {
   width: 100%;
 }
 
-/* Tour Logo */
-.MusicLogo{
+/* Music Logo */
+.MusicLogo {
   display: flex;
   flex-direction: row;
   flex-basis: 50%;
-  justify-content:right;
+  justify-content: right;
 }
 
-.MusicLogo img{
+.MusicLogo img {
   padding-top: 20px;
   padding-bottom: 40px;
   padding-left: 370px;
@@ -583,22 +620,22 @@ h1 {
   height: 80px;
 }
 
-/* Tour Text */
-.demusic a{
+/* Music Text */
+.demusic a {
   font-size: 40px;
   color: white;
 }
 
-.demusic{
+.demusic {
   padding-top: 20px;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 8px;
   flex-basis: 50%;
-  justify-content:left;
+  justify-content: left;
 }
 
-/* Tour Youtube */
+/* Music Youtube */
 #MusicListen {
   background-image: url("Photos/MusicProfile.png");
   display: flex;
@@ -607,10 +644,10 @@ h1 {
   width: 100%;
 }
 
-/* Tour Music Platforms */
+/* Music Platforms */
 .middlelogo {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-top: 12%;
   padding-bottom: 12%;
   padding-right: 170px;
@@ -618,7 +655,7 @@ h1 {
   flex-basis: 100%;
 }
 
-.middlelogo img{
+.middlelogo img {
   max-height: 100px;
 }
 
@@ -632,7 +669,7 @@ h1 {
 
 .music {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   padding-top: 12%;
   padding-bottom: 8%;
   padding-right: 150px;
@@ -640,7 +677,7 @@ h1 {
   flex-basis: 100%;
 }
 
-/* (STORE) styles.css*/
+/* (STORE) styles.css.....................................................*/
 #storetop {
   display: flex;
   flex-direction: row;
@@ -648,15 +685,15 @@ h1 {
 }
 
 /* Tour nav */
-.storenavinfo{
+.storenavinfo {
   display: flex;
   flex-direction: row;
-  flex-basis:20%;
-  justify-content:space-between;
+  flex-basis: 20%;
+  justify-content: space-between;
   color: white;
 }
 
-.storenavinfo a{
+.storenavinfo a {
   padding-top: 8px;
   padding-left: 10px;
   padding-right: 10px;
@@ -664,15 +701,27 @@ h1 {
   font-size: 22px;
 }
 
+/* remove decorated link and colours */
+.storenavinfo a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* hover over navigation */
+.storenavinfo a:hover {
+  color: rgb(186, 14, 114);
+}
+
 /* Tour icons */
-.storeicons{
+.storeicons {
   display: flex;
   flex-direction: row;
   flex-basis: 80%;
-  justify-content:right;
+  justify-content: right;
 }
 
-.storeicons img{
+.storeicons img {
   width: 25px;
   height: 25px;
 }
@@ -684,46 +733,46 @@ h1 {
 }
 
 /* Store Logo */
-.StoreLogo{
+.StoreLogo {
   display: flex;
   flex-direction: row;
   flex-basis: 30%;
-  justify-content:left;
+  justify-content: left;
 }
 
-.StoreLogo img{
+.StoreLogo img {
   padding-top: 20px;
   padding-bottom: 40px;
   width: 550px;
   height: 80px;
 }
 
-.destore a{
+.destore a {
   font-size: 40px;
   color: white;
 }
 
-.destore{
+.destore {
   padding-top: 20px;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 8px;
   flex-basis: 30%;
-  justify-content:left;
+  justify-content: left;
 }
 
 /* Tour search bar */
-.storeSearchbar a{
+.storeSearchbar a {
   font-size: 20px;
   color: white;
 }
 
-.storeSearchbar{
+.storeSearchbar {
   padding-top: 50px;
   padding-right: 10px;
   padding-left: 80px;
   padding-bottom: 8px;
-  flex-basis:40%;
+  flex-basis: 40%;
   justify-content: end;
 }
 
@@ -738,19 +787,19 @@ h1 {
 /* Merch1Column*/
 .Merch1 {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.Merch1 img{
+.Merch1 img {
   width: 25%;
   max-height: 380px;
 }
 
-.Merch1 :hover{
+.Merch1 :hover {
   width: 26%;
   max-height: 380px;
 }
@@ -782,19 +831,19 @@ h1 {
 /* Merch2Column*/
 .Merch2 {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.Merch2 :hover{
+.Merch2 :hover {
   width: 26%;
   max-height: 380px;
 }
 
-.Merch2 img{
+.Merch2 img {
   width: 25%;
   max-height: 380px;
 }
@@ -814,7 +863,7 @@ h1 {
 .Merch2price {
   display: flex;
   flex-direction: row;
-   justify-content: space-between;
+  justify-content: space-between;
   padding-left: 70px;
   padding-right: 140px;
 }
@@ -826,19 +875,19 @@ h1 {
 /* Merch3Column*/
 .Merch3 {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.Merch3 :hover{
+.Merch3 :hover {
   width: 36%;
   max-height: 410px;
 }
 
-.Merch3 img{
+.Merch3 img {
   width: 35%;
   max-height: 410px;
 }
@@ -858,7 +907,7 @@ h1 {
 .Merch3price {
   display: flex;
   flex-direction: row;
-   justify-content: space-between;
+  justify-content: space-between;
   padding-left: 265px;
   padding-right: 230px;
 }
