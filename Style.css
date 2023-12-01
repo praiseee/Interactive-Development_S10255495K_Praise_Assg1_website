@@ -684,7 +684,7 @@ h1 {
   width: 100%;
 }
 
-/* Tour nav */
+/* Store nav */
 .storenavinfo {
   display: flex;
   flex-direction: row;
@@ -713,7 +713,7 @@ h1 {
   color: rgb(186, 14, 114);
 }
 
-/* Tour icons */
+/* Store icons */
 .storeicons {
   display: flex;
   flex-direction: row;
@@ -761,7 +761,7 @@ h1 {
   justify-content: left;
 }
 
-/* Tour search bar */
+/* Store search bar */
 .storeSearchbar a {
   font-size: 20px;
   color: white;
@@ -776,7 +776,7 @@ h1 {
   justify-content: end;
 }
 
-/* Tour Merch */
+/* Store Merch */
 #StoreBottom {
   background-image: url("Photos/storewhite.png");
   display: flex;
